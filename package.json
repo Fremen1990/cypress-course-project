@@ -1,0 +1,25 @@
+{
+  "name": "cypres11-course-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "runner": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fremen1990/cypress-course-project"
+  },
+  "keywords": [
+    "cypres",
+    "javascript",
+    "typescript",
+    "testing"
+  ],
+  "author": "Tomasz Stanisz",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.0.2",
+    "typescript": "^4.9.4"
+  }
+}
