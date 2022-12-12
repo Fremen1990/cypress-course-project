@@ -7,4 +7,6 @@ export default defineConfig({
       // implement node event listeners here
     },
   },
+  pageLoadTimeout: 60000,
+  defaultCommandTimeout: 16000,
 });
