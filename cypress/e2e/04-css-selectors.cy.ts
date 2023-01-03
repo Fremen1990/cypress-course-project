@@ -25,5 +25,3 @@ describe("Locators", () => {
     cy.get(`.btn-primary`).should("have.text", "Button with Dynamic ID");
   });
 });
-
-// TODO 44 XPath overview

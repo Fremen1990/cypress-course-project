@@ -8,9 +8,9 @@ export default defineConfig({
     },
     env: {
       demoVar: "Hello from the cypress.config.ts ",
-      demoQA: "https://demoqa.com/",
-      theInternet: "https://the-internet.herokuapp.com/",
-      Angular: "https://globalsqa.com/",
+      demoQA: "https://demoqa.com",
+      theInternet: "https://the-internet.herokuapp.com",
+      Angular: "https://globalsqa.com",
     },
   },
   pageLoadTimeout: 60000,
