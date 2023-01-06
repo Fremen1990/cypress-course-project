@@ -19,4 +19,6 @@ export default defineConfig({
   // defaultCommandTimeout: 16000,
   viewportHeight: 1000,
   viewportWidth: 1400,
+
+  // experimentalSessionAndOrigin: true;
 });

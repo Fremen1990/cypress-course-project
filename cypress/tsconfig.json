@@ -11,7 +11,9 @@
       "@cypress/xpath",
       "cypress-real-events",
       "cypress-file-upload",
-      "cy-verify-downloads"
+      "cy-verify-downloads",
+      "@testing-library/cypress",
+      "@4tw/cypress-drag-drop"
     ]
   },
   "include": [

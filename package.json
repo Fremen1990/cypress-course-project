@@ -19,7 +19,9 @@
   "author": "Tomasz Stanisz",
   "license": "ISC",
   "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.3",
     "@cypress/xpath": "^2.0.3",
+    "@testing-library/cypress": "^9.0.0",
     "cy-verify-downloads": "^0.1.11",
     "cypress": "^12.0.2",
     "cypress-file-upload": "^5.0.8",
