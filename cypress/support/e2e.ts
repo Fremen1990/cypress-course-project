@@ -1,4 +1,7 @@
+// Import commands.js using ES2015 syntax:
+import "./commands";
 require("@cypress/xpath");
+require("cy-verify-downloads").addCustomCommand();
 import "cypress-real-events/support";
 
 import "./exceptions";
@@ -17,9 +20,6 @@ import "./exceptions";
 // You can read more here:
 // https://on.cypress.io/configuration
 // ***********************************************************
-
-// Import commands.js using ES2015 syntax:
-import "./commands";
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
