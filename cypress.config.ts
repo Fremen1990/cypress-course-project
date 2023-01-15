@@ -74,6 +74,8 @@ export default defineConfig({
       },
       //   Mobile validation
       mobileViewportWidthBreakpoint: 400,
+      user:"test",
+      password:""
     },
   },
 

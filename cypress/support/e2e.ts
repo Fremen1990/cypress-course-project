@@ -19,15 +19,15 @@ import "./exceptions";
 //   });
 // });
 
-after(() => {
-  cy.log("I am an GLOBAL after HOOK");
-
-  cy.clearCookies();
-  cy.getCookies().then((cookies) => {
-    cy.log("Cookies: ", cookies);
-    expect(cookies).to.have.length(0);
-  });
-});
+// after(() => {
+//   cy.log("I am an GLOBAL after HOOK");
+//
+//   cy.clearCookies();
+//   cy.getCookies().then((cookies) => {
+//     cy.log("Cookies: ", cookies);
+//     expect(cookies).to.have.length(0);
+//   });
+// });
 
 // ***********************************************************
 // This example support/e2e.ts is processed and
