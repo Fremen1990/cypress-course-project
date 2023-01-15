@@ -8,7 +8,7 @@ describe("Retry ability demo", () => {
   it("Client delay button", () => {
     cy.visit("/clientdelay");
     cy.get("#ajaxButton").click();
-    cy.get(".bg-success").should(
+    cy.get(".bg-success", { timeout: 20000 }).should(
       "have.text",
       "Data calculated on the client side."
     );

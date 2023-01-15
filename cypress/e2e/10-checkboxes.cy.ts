@@ -1,6 +1,6 @@
-describe.skip("Checkbox Demo QA", () => {
+describe("Checkbox Demo QA", () => {
   beforeEach(() => {
-    cy.visit(`${Cypress.env("demoQA")}checkbox`);
+    cy.visit(`${Cypress.env("demoQA")}/checkbox`);
   });
 
   it("Checkbox scenario", () => {
@@ -12,9 +12,9 @@ describe.skip("Checkbox Demo QA", () => {
   });
 });
 
-describe.only("Checkbox Demo InternetApp", () => {
+describe("Checkbox Demo InternetApp", () => {
   beforeEach(() => {
-    cy.visit(`${Cypress.env("theInternet")}checkboxes`);
+    cy.visit(`${Cypress.env("theInternet")}/checkboxes`);
   });
 
   it("Checkbox scenario", () => {

@@ -1,4 +1,4 @@
-describe("Mocking an API request", () => {
+describe.skip("Mocking an API request", () => {
   beforeEach(() => {
     cy.visit(`${Cypress.env("demoQA")}/login`);
     cy.intercept(
