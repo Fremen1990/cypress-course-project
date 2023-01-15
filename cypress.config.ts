@@ -14,6 +14,8 @@ const mysql = require("mysql");
 const { faker } = require("@faker-js/faker");
 
 export default defineConfig({
+  projectId: "5wg4vm",
+
   e2e: {
     baseUrl: "http://uitestingplayground.com",
     setupNodeEvents(on, config) {

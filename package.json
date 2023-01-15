@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "runner": "cypress open --e2e --browser chrome --env demoVar=Hello_From_Package_Json",
+    "cypress-run": "cypress run --record --key 2e650fb7-d68d-4748-a57e-b51b8424ffba",
+    "cypress-dashboard-parallel-run": "cypress run --record --key 2e650fb7-d68d-4748-a57e-b51b8424ffba --parallel",
     "runner-mobile": "cypress open --e2e --browser chrome --config viewportWidth=100 --env demoVar=Hello_From_Package_Json",
-    "press-run": "cypress run",
-    "press-run-headed": "cypress run --browser chrome --headed --spec cypress/e2e/26-customCommands.cy.ts",
-    "press-run-spec": "cypress run --spec cypress/e2e/26-customCommands.cy.ts",
-    "press-run-headed-whole-folder": "cypress run --browser chrome --headed --spec cypress/e2e/*.ts",
-    "press-run-headed-33": "cypress run --browser chrome --headed --spec cypress/e2e/33-database-testing.cy.ts"
+    "cypress-run-headed": "cypress run --browser chrome --headed --spec cypress/e2e/26-customCommands.cy.ts",
+    "cypress-run-spec": "cypress run --spec cypress/e2e/26-customCommands.cy.ts",
+    "cypress-run-headed-whole-folder": "cypress run --browser chrome --headed --spec cypress/e2e/*.ts",
+    "cypress-run-headed-33": "cypress run --browser chrome --headed --spec cypress/e2e/33-database-testing.cy.ts"
   },
   "repository": {
     "type": "git",
